@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>1.1 - 1.3 // Assignment</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="#mainContent" id="skipLink">Skip to Main Content</a>
+            <h1>Wunderlust Travel</h1>
+            <!-- Code responsive images for art direction -->
+            <picture>
+                <!-- for a min-width: 1024px, use images/logo-L.png -->
+                <source media="(min-width: 1024px)" srcset="images/logo-L.png">
+                <!-- for a max-width: 780px, use images/logo-M.png -->
+                <source media="(max-width: 780px)" srcset="images/logo-M.png">
+                <!-- for a max-width: 320px, use images/logo-S.png -->
+                <source media="(max-width: 320px)" srcset="images/logo-S.png">
+                <!-- fallback image alt="Logo with orange and yellow background that includes two dark green palm trees with blue waves" -->
+                <img src="images/logo-S.png" alt="Logo with orange and yellow background that includes two dark green palm trees with blue waves">
+            </picture>
+            <p>Let Wunderlust Travel help you plan the trip of your dreams!</p>
+
+            <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+            <nav>
+                <ul>
+                    <li><a href="#destination">Destinations</a></li>
+                    <li><a href="#inspiration">Inspirations</a></li>
+                    <li><a href="#special">Special</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+
+        <main id="mainContent">
+            <article>
+                <h2>Majorca</h2>
+                <p>Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, picturesque villages and a vibrant capital city. The island and its capital, Palma, are overflowing with character, while its beaches are famous all around the world, making it one of the most sought-after summer destinations.</p>
+                <!-- Code responsive images for art direction -->
+                <picture>
+                    <!-- for a min-width: 1024px, use images/majorca-waves-L.png -->
+                    <source media="(min-width: 1024px)" srcset="images/majorca-waves-L.png">
+                    <!-- for a max-width: 780px, use images/majorca-waves-M.png -->
+                    <source media="(max-width: 780px)" srcset="images/majorca-waves-M.png">
+                    <!-- for a max-width: 320px, use images/majorca-waves-S.png -->
+                    <source media="(max-width: 320px)" srcset="images/majorca-waves-S.png">
+                    <!-- fallback image alt="Rocky coastline with rolling waves" -->
+                    <img src="images/majorca-waves-S.png" alt="Rocky coastline with rolling waves">
+                </picture>
+                <picture>
+                    <!-- for a min-width: 1024px, use images/majorca-beach-L.png -->
+                    <source media="(min-width: 1024px)" srcset="images/majorca-beach-L.png">
+                    <!-- for a max-width: 780px, use images/majorca-beach-M.png -->
+                    <source media="(max-width: 780px)" srcset="images/majorca-beach-M.png">
+                    <!-- for a max-width: 320px, use images/majorca-beach-S.png -->
+                    <source media="(max-width: 320px)" srcset="images/majorca-beach-S.png">
+                    <!-- fallback image alt="View of sandy beach with mountains in the background" -->
+                    <img src="images/majorca-beach-S.png" alt="View of sandy beach with mountains in the background">
+                </picture>
+                <picture>
+                    <!-- for a min-width: 1024px, use images/majorca-cove-L.png -->
+                    <source media="(min-width: 1024px)" srcset="images/majorca-cove-L.png">
+                    <!-- for a max-width: 780px, use images/majorca-cove-M.png -->
+                    <source media="(max-width: 780px)" srcset="images/majorca-cove-M.png">
+                    <!-- for a max-width: 320px, use images/majorca-cove-S.png -->
+                    <source media="(max-width: 320px)" srcset="images/majorca-cove-S.png">
+                    <!-- fallback image alt="Aerial view of beach cove with houses, trees, and rocky coastline in the background" -->
+                    <img src="images/majorca-cove-S.png" alt="Aerial view of beach cove with houses, trees, and rocky coastline in the background">
+                </picture>
+                <hr>
+
+                <section id="special">
+                    <h3>Plan Your Trip</h3>
+                    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                    <section>
+                        <h4>How to Get There</h4>
+                        <!-- add an SVG for a plane from http://www.w3.org/2000/svg -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane" width="150" height="150" viewBox="0 0 24 24" stroke-width="1" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M16 10h4a2 2 0 0 1 0 4h-4l-4 7h-3l2 -7h-4l-2 2h-3l2 -4l-2 -4h3l2 2h4l-2 -7h3z" />
+                        </svg>
+
+                        <!-- (href=”#”) (title=”Search for Flights”) -->
+                        <a href="#" title="Search for Flights">
+                            <!-- add an SVG for a chevron right icon from http://www.w3.org/2000/svg -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="40" height="40" viewBox="0 0 24 24" stroke-width="3" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <polyline points="9 6 15 12 9 18" />
+                            </svg>
+                        </a>
+                        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                    </section>
+
+                    <section>
+                        <h4>Places to Stay</h4>
+                        <!-- add an SVG for a bed from http://www.w3.org/2000/svg -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bed" width="150" height="150" viewBox="0 0 24 24" stroke-width="1" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 7v11m0 -4h18m0 4v-8a2 2 0 0 0 -2 -2h-8v6" />
+                            <circle cx="7" cy="10" r="1" />
+                        </svg>
+
+                        <!-- (href=”#”) (title=”Search for Hotels”) -->
+                        <a href="#" title="Search for Hotels">
+                            <!-- add an SVG for a chevron right icon from http://www.w3.org/2000/svg -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="40" height="40" viewBox="0 0 24 24" stroke-width="3" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <polyline points="9 6 15 12 9 18" />
+                            </svg>
+                        </a>
+                        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                    </section>
+
+                    <section>
+                        <h4>Things to Do</h4>
+                        <!-- add an SVG for a sailboat from http://www.w3.org/2000/svg -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sailboat" width="150" height="150" viewBox="0 0 24 24" stroke-width="1" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M2 20a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1" />
+                            <path d="M4 18l-1 -3h18l-1 3" />
+                            <path d="M11 12h7l-7 -9v9" />
+                            <line x1="8" y1="7" x2="6" y2="12" />
+                        </svg>
+
+                        <!-- (href=”#”) (title=”Search for Activities”) -->
+                        <a href="#" title="Search for Activities">
+                            <!-- add an SVG for a chevron right icon from http://www.w3.org/2000/svg -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="40" height="40" viewBox="0 0 24 24" stroke-width="3" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <polyline points="9 6 15 12 9 18" />
+                            </svg>
+                        </a>
+                        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                    </section>
+
+                    <section>
+                        <h4>Where to Eat</h4>
+                        <!-- add an SVG for a knife and fork from http://www.w3.org/2000/svg -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen-2" width="150" height="150" viewBox="0 0 24 24" stroke-width="1" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12zm0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3" />
+                        </svg>
+
+                        <!-- (href=”#”) (title=”Search for Restaurants”) -->
+                        <a href="#" title=" Search for Restaurants">
+                            <!-- add an SVG for a chevron right icon from http://www.w3.org/2000/svg -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right" width="40" height="40" viewBox="0 0 24 24" stroke-width="3" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <polyline points="9 6 15 12 9 18" />
+                            </svg>
+                        </a>
+                        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                    </section>
+                </section>
+                <hr>
+
+                <section>
+                    <h3 id="inspiration">Testimonials</h3>
+                    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                    <section>
+                        <h4>Miranda Blake</h4>
+                        <!-- Code responsive images for art direction -->
+                        <picture>
+                            <!-- for a min-width: 1024px, use images/miranda-blake-L.png -->
+                            <source media="(min-width: 1024px)" srcset="images/miranda-blake-L.png">
+                            <!-- for a max-width: 780px, use images/miranda-blake-M.png -->
+                            <source media="(max-width: 780px)" srcset="images/miranda-blake-M.png">
+                            <!-- for a max-width: 320px, use images/miranda-blake-S.png -->
+                            <source media="(max-width: 320px)" srcset="images/miranda-blake-S.png">
+                            <!-- fallback image alt="Female customer with a blonde bob hairstyle wearing black sunglasses and a black blazer" -->
+                            <img src="images/miranda-blake-S.png" alt="Female customer with a blonde bob hairstyle wearing black sunglasses and a black blazer">
+                        </picture>
+                        <p>Traveling From: London, England<br>
+                            <q>I traveled here for business, but my stay was extended. Now it is my home.</q>
+                        </p>
+                        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                    </section>
+
+                    <section>
+                        <h4>Max Winter</h4>
+                        <!-- Code responsive images for art direction -->
+                        <picture>
+                            <!-- for a min-width: 1024px, use images/max-winter-L.png -->
+                            <source media="(min-width: 1024px)" srcset="images/max-winter-L.png">
+                            <!-- for a max-width: 780px, use images/max-winter-M.png -->
+                            <source media="(max-width: 780px)" srcset="images/max-winter-M.png">
+                            <!-- for a max-width: 320px, use images/max-winter-S.png -->
+                            <source media="(max-width: 320px)" srcset="images/max-winter-S.png">
+                            <!-- fallback image alt="Male customer with short brown hair and a beard wearing a brown suede shirt" -->
+                            <img src="images/max-winter-S.png" alt="Male customer with short brown hair and a beard wearing a brown suede shirt">
+                        </picture>
+                        <p>Traveling From: Berlin, Germany<br>
+                            <q>Great escape from my reality. Beautiful sunsets, wonderful people, great beer.</q>
+                        </p>
+                        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                    </section>
+
+                    <section>
+                        <h4>Inés Villegoes</h4>
+                        <!-- Code responsive images for art direction -->
+                        <picture>
+                            <!-- for a min-width: 1024px, use images/ines-villegoes-L.png -->
+                            <source media="(min-width: 1024px)" srcset="images/ines-villegoes-L.png">
+                            <!-- for a max-width: 780px, use images/ines-villegoes-M.png -->
+                            <source media="(max-width: 780px)" srcset="images/ines-villegoes-M.png">
+                            <!-- for a max-width: 320px, use images/ines-villegoes-S.png -->
+                            <source media="(max-width: 320px)" srcset="images/ines-villegoes-S.png">
+                            <!-- fallback image alt="Female customer with long brown curly hair wearing a brown long sleeve shirt and bulletproof vest with a police badge" -->
+                            <img src="images/ines-villegoes-S.png" alt="Female customer with long brown curly hair wearing a brown long sleeve shirt and bulletproof vest with a police badge">
+                        </picture>
+                        <p>Traveling From: Barcelona, Spain<br>
+                            <q>A very safe environment for all travelers.</q>
+                        </p>
+                        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                    </section>
+
+                    <section>
+                        <h4>Carmen Lorenzo</h4>
+                        <!-- Code responsive images for art direction -->
+                        <picture>
+                            <!-- for a min-width: 1024px, use images/carmen-lorenzo-L.png -->
+                            <source media="(min-width: 1024px)" srcset="images/carmen-lorenzo-L.png">
+                            <!-- for a max-width: 780px, use images/carmen-lorenzo-M.png -->
+                            <source media="(max-width: 780px)" srcset="images/carmen-lorenzo-M.png">
+                            <!-- for a max-width: 320px, use images/carmen-lorenzo-S.png -->
+                            <source media="(max-width: 320px)" srcset="images/carmen-lorenzo-S.png">
+                            <!-- fallback image alt="Female customer with long brown curly hair wearing a purple halter top and gold hoop earnings" -->
+                            <img src="images/carmen-lorenzo-S.png" alt="Female customer with long brown curly hair wearing a purple halter top and gold hoop earnings">
+                        </picture>
+                        <p>Traveling From: Madrid, Spain<br>
+                            <q>Live, laugh, love-- everything you need in Majorca.</q>
+                        </p>
+                        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                    </section>
+                </section>
+                <hr>
+
+                <section>
+                    <h3>About Your Destination</h3>
+                    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                    <section>
+                        <h4>Size</h4>
+                        <!-- add an SVG for a ruler from http://www.w3.org/2000/svg -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-ruler-2" width="100" height="100" viewBox="0 0 24 24" stroke-width="1" stroke="#a905b6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M17 3l4 4l-14 14l-4 -4z" />
+                            <path d="M16 7l-1.5 -1.5" />
+                            <path d="M13 10l-1.5 -1.5" />
+                            <path d="M10 13l-1.5 -1.5" />
+                            <path d="M7 16l-1.5 -1.5" />
+                        </svg>
+                        <p>Size: 1,405 miles squared</p>
+                        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                    </section>
+
+                    <section>
+                        <h4>Elevation</h4>
+                        <!-- add an SVG for an arrow from http://www.w3.org/2000/svg -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-top-bar" width="100" height="100" viewBox="0 0 24 24" stroke-width="1" stroke="#a905b6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <line x1="12" y1="21" x2="12" y2="3" />
+                            <path d="M15 6l-3 -3l-3 3" />
+                            <line x1="9" y1="21" x2="15" y2="21" />
+                        </svg>
+                        <p>Elevation: 4,741 feet</p>
+                        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                    </section>
+
+                    <section>
+                        <h4>Location</h4>
+                        <!-- add an SVG for a map pin from http://www.w3.org/2000/svg -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="100" height="100" viewBox="0 0 24 24" stroke-width="1" stroke="#a905b6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <circle cx="12" cy="11" r="3" />
+                            <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                        </svg>
+                        <p>Location: Mediterranean</p>
+                        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                    </section>
+
+                    <section>
+                        <h4>Population</h4>
+                        <!-- add an SVG for a user from http://www.w3.org/2000/svg -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users" width="100" height="100" viewBox="0 0 24 24" stroke-width="1" stroke="#a905b6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                            <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+                        </svg>
+                        <p>Population: 923,608</p>
+                        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                    </section>
+                </section>
+                <hr>
+
+                <section>
+                    <h3 id="contact">Contact Us</h3>
+                    <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                        <label for="firstName">First Name<span style="color: red;">*</span></label>
+                        <input name="firstName" id="firstName" type="text" placeholder="Enter first name" autocomplete="given-name" required><br>
+                        <label for="lastName">Last Name<span style="color: red;">*</span></label>
+                        <input name="lastName" id="lastName" type="text" placeholder="Enter last name" autocomplete="family-name" required><br><br>
+
+                        <label for="contactMethod">Contact Method<span style="color: red;">*</span></label>
+                        <select id="contactMethod" name="contactMethod" required>
+                            <option disabled selected value="">-- Select method of contact --</option>
+                            <option value="email">Email</option>
+                            <option value="phone">Phone</option>
+                            <option value="text">Text</option>
+                        </select><br>
+
+                        <label for="email">Email Address<span style="color: red;">*</span></label>
+                        <input name="email" id="email" type="text" placeholder="Enter email" autocomplete="email" required><br>
+                        <label for="phone">Phone Number<span style="color: red;">*</span></label>
+                        <input name="phone" id="phone" type="tel" placeholder="Enter telephone number" autocomplete="tel" required><br><br>
+
+                        <label for="destination">Destination<span style="color: red;">*</span></label>
+                        <select id="destination" name="destination" required>
+                            <option disabled selected value="">-- Select destination --</option>
+                            <option value="BCN">Barcelona</option>
+                            <option value="GR">Granada</option>
+                            <option value="IBZ">Ibiza</option>
+                            <option value="MAD">Madrid</option>
+                            <option value="MA">Majorca</option>
+                            <option value="SE">Seville</option>
+                            <option value="TCI">Tenerife</option>
+                            <option value="VAL">Valencia</option>
+                        </select><br>
+
+                        <label for="travelTime">Travel Time<span style="color: red;">*</span></label>
+                        <select id="travelTime" name="travelTime" required>
+                            <option disabled selected value="">-- Select travel time --</option>
+                            <option value="F">Fall</option>
+                            <option value="WTR">Winter</option>
+                            <option value="SP">Spring</option>
+                            <option value="SU">Summer</option>
+                            <option value="FLX">Flexible</option>
+                        </select><br><br>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </section>
+                <hr>
+            </article>
+        </main>
+
+        <footer>
+            <small>Copyright &copy; 2025 Wunderlust</small>
+            <ul>
+                <li>
+                    <a href="#">
+                        <small>Privacy Statement</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <small>Terms of Service</small>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+
+</html>
